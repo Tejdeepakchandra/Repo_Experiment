@@ -6,5 +6,7 @@ fs.readFile('text.txt','utf8',(err, data) =>{
     }
     else{
         console.log('File content: ',data);
+        console.log('hiii');
     }
+
 });
